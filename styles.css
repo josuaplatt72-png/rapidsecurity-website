@@ -971,13 +971,13 @@ footer p{
 .tourist-image{
   background-image:url("Rapid_Security_Website_Business_Card seperate1111.png");
   background-size:contain;
-  background-position:center;
+  background-position:center 24px;
   background-repeat:no-repeat;
   background-color:#eef5ff;
 }
 
 .split-image.tourist-image{
-  min-height:320px;
+  min-height:460px;
   background-size:96% auto;
   background-color:#ffffff;
   border:1px solid #dbe7f7;
