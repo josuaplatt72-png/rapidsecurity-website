@@ -977,5 +977,10 @@ footer p{
 }
 
 .split-image.tourist-image{
-  min-height:400px;
+  min-height:320px;
+  background-size:96% auto;
+  background-color:#ffffff;
+  border:1px solid #dbe7f7;
+  box-shadow:0 14px 35px rgba(0,45,120,.12);
+}
 }
