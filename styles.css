@@ -1385,3 +1385,15 @@ nav a:hover{
     font-size:clamp(18px, 1.8vw, 28px) !important;
     line-height:1.2 !important;
 }
+/* FINAL EMAIL SIZE FIX */
+.contact-card[href^="mailto:"] strong{
+    font-size:20px !important;
+    line-height:1.25 !important;
+    letter-spacing:-0.3px !important;
+    overflow-wrap:anywhere !important;
+    word-break:break-word !important;
+}
+
+.contact-card[href^="mailto:"]{
+    overflow:hidden !important;
+}
