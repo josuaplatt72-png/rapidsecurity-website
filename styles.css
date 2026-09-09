@@ -1231,3 +1231,9 @@ main{
 .topbar + main{
     margin-top:0 !important;
 }
+
+/* FINAL - PULL TOURIST SECTION UP UNDER HEADER */
+#tourists{
+    margin-top:-80px !important;
+    padding-top:0 !important;
+}
