@@ -217,7 +217,7 @@ img{
 }
 
 .hero h1 span{
-  color:var(--gold);
+ color:#f2c85b; 
 }
 
 .hero-lead{
