@@ -1091,3 +1091,20 @@ footer p{
     margin-top:0 !important;
     padding-top:0 !important;
 }
+/* BALANCE TOURIST SECTION HEIGHT */
+.tourist-section{
+    align-items:stretch;
+}
+
+.tourist-section .split-image{
+    min-height:100%;
+    height:auto;
+}
+
+.tourist-section .tourist-image{
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    background-size:96% auto;
+    background-position:center 24px;
+}
