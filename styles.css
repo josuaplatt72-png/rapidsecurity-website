@@ -1179,3 +1179,28 @@ footer p{
     overflow:hidden !important;
     padding:55px 45px !important;
 }
+/* ===== TOURIST SECTION FINAL SIZE & ALIGNMENT ===== */
+
+.tourist-section{
+    height:600px !important;
+    min-height:600px !important;
+    overflow:hidden !important;
+}
+
+.tourist-section .split-image.tourist-image{
+    height:600px !important;
+    min-height:600px !important;
+    background-size:100% auto !important;
+    background-position:center top !important;
+}
+
+.tourist-section .split-content{
+    height:600px !important;
+    min-height:600px !important;
+    padding:70px 45px 35px !important;
+    overflow:visible !important;
+}
+
+.tourist-section .tourist-protection-panel{
+    bottom:18px !important;
+}
