@@ -1373,3 +1373,15 @@ nav a:hover{
         padding:5px 8px;
     }
 }
+/* FIX CONTACT EMAIL DISPLAY */
+.contact-card a[href^="mailto:"],
+.contact-card h3,
+.contact-card strong{
+    overflow-wrap:anywhere;
+    word-break:normal;
+}
+
+.contact-card a[href^="mailto:"]{
+    font-size:clamp(18px, 1.8vw, 28px) !important;
+    line-height:1.2 !important;
+}
