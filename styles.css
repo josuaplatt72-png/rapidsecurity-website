@@ -1291,3 +1291,47 @@ main{
         line-height:0.98 !important;
     }
 }
+
+/* ===== BRIGHTER RAPID SECURITY TOP HEADER ===== */
+
+.topbar{
+    background:linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #f8fbff 55%,
+        #eef6ff 100%
+    ) !important;
+
+    box-shadow:0 4px 16px rgba(0,55,110,.10) !important;
+}
+
+.topbar,
+.topbar a,
+.topbar span,
+.topbar strong{
+    color:#082c5c;
+}
+
+/* light gold accent wording */
+.topbar .tagline,
+.topbar .gold-text{
+    color:#c79a2b !important;
+}
+
+/* brighten navigation bar slightly */
+nav{
+    background:linear-gradient(
+        90deg,
+        #073564 0%,
+        #0b4d84 50%,
+        #073564 100%
+    ) !important;
+}
+
+nav a{
+    color:#ffffff !important;
+}
+
+nav a:hover{
+    color:#f2c85b !important;
+}
