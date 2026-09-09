@@ -1335,3 +1335,41 @@ nav a{
 nav a:hover{
     color:#f2c85b !important;
 }
+/* ===== WEBSITE ADDRESS NEXT TO 24/7 BUTTON ===== */
+
+.nav-contact{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.nav-website{
+    color:#0b3f78 !important;
+    font-weight:800;
+    font-size:15px;
+    text-decoration:none;
+    padding:10px 14px;
+    border:1px solid #d8e5f3;
+    border-radius:10px;
+    background:#ffffff;
+    box-shadow:0 5px 14px rgba(0,45,100,.08);
+}
+
+.nav-website:hover{
+    color:#c79a2b !important;
+    border-color:#f2c85b;
+}
+
+/* mobile */
+@media (max-width:700px){
+    .nav-contact{
+        gap:6px;
+        flex-direction:column;
+        align-items:flex-end;
+    }
+
+    .nav-website{
+        font-size:11px;
+        padding:5px 8px;
+    }
+}
