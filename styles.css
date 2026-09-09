@@ -1219,3 +1219,15 @@ footer p{
     left:28px !important;
     right:24px !important;
 }
+/* REMOVE EXTRA GAP ABOVE TOURIST SECTION */
+#tourists{
+    margin-top:0 !important;
+}
+
+main{
+    padding-top:0 !important;
+}
+
+.topbar + main{
+    margin-top:0 !important;
+}
