@@ -966,6 +966,107 @@ footer p{
     bottom:14px;
   }
 }
+
+/* PREMIUM TOURIST PROTECTION BANNER */
+
+.tourist-protection-panel{
+  position:absolute;
+  top:18px;
+  left:20px;
+  right:20px;
+  z-index:5;
+  padding:14px 18px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:15px;
+  flex-wrap:wrap;
+  background:linear-gradient(135deg,#061b3a 0%,#0057d9 100%);
+  border-left:6px solid #f4c542;
+  border-radius:10px;
+  box-shadow:0 10px 28px rgba(0,45,120,.22);
+  color:#ffffff;
+}
+
+.tourist-protection-panel strong{
+  font-family:"Barlow Condensed",sans-serif;
+  font-size:24px;
+  font-weight:900;
+  letter-spacing:.5px;
+  color:#f4c542;
+}
+
+.tourist-protection-panel span{
+  font-family:"Inter",sans-serif;
+  font-size:14px;
+  font-weight:600;
+  color:#ffffff;
+}
+
+.tourist-protection-panel small{
+  font-family:"Inter",sans-serif;
+  font-size:12px;
+  font-weight:700;
+  color:#ffffff;
+}
+
+.split-image.tourist-image{
+  position:relative;
+  padding-top:78px;
+  background-position:center 78px;
+}
+
+@media(max-width:700px){
+  .tourist-protection-panel{
+    left:10px;
+    right:10px;
+    top:10px;
+    padding:10px 12px;
+  }
+
+  .tourist-protection-panel strong{
+    font-size:20px;
+  }
+
+  /* ===== MOBILE TOURIST PROTECTION ===== */
+@media (max-width:700px){
+
+    .split-image.tourist-image{
+        padding-top:60px;
+        background-position:center center;
+        min-height:420px;
+    }
+
+    .tourist-protection-panel{
+        left:10px;
+        right:10px;
+        top:10px;
+        width:auto;
+        max-width:none;
+        padding:12px 14px;
+    }
+
+    .tourist-protection-panel strong{
+        font-size:20px;
+        line-height:1.2;
+    }
+
+    .tourist-protection-panel span{
+        font-size:13px;
+        line-height:1.4;
+    }
+}
+
+  .tourist-protection-panel span,
+  .tourist-protection-panel small{
+    font-size:11px;
+  }
+
+  .split-image.tourist-image{
+    padding-top:100px;
+    background-position:center 100px;
+  }
+}
 /* BUSINESS CARD — SHOW COMPLETE IMAGE WITHOUT CROPPING */
 
 .tourist-image{
