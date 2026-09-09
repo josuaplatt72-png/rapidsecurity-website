@@ -1139,3 +1139,43 @@ footer p{
 .tourist-section .split-image{
     min-height:520px !important;
 }
+/* ===== FINAL TOURIST SECTION LAYOUT FIX ===== */
+
+.tourist-section{
+    display:grid !important;
+    grid-template-columns:52% 48% !important;
+    align-items:stretch !important;
+    min-height:520px !important;
+    height:520px !important;
+    overflow:hidden !important;
+}
+
+.tourist-section .split-image.tourist-image{
+    position:relative !important;
+    width:100% !important;
+    height:520px !important;
+    min-height:520px !important;
+    padding:0 !important;
+
+    background-image:url("Rapid Security Namibia Travel Protection.png") !important;
+    background-size:contain !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+    background-color:#ffffff !important;
+}
+
+.tourist-section .tourist-protection-panel{
+    position:absolute !important;
+    left:24px !important;
+    right:24px !important;
+    bottom:18px !important;
+    top:auto !important;
+    z-index:10 !important;
+}
+
+.tourist-section .split-content{
+    height:520px !important;
+    min-height:520px !important;
+    overflow:hidden !important;
+    padding:55px 45px !important;
+}
