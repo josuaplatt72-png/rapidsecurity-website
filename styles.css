@@ -1108,3 +1108,34 @@ footer p{
     background-size:96% auto;
     background-position:center 24px;
 }
+
+/* ===== RAPID SECURITY TOURIST SECTION - FINAL IMAGE FIX ===== */
+
+/* Use the new Namibia tourist protection image */
+.tourist-section .tourist-image{
+    background-image:url("Rapid Security Namibia Travel Protection.png") !important;
+    background-size:cover !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+    min-height:520px !important;
+    padding-top:0 !important;
+}
+
+/* Move blue information banner down so company name stays visible */
+.tourist-section .tourist-protection-panel{
+    top:auto !important;
+    bottom:18px !important;
+    left:24px !important;
+    right:24px !important;
+}
+
+/* Keep tourist section aligned neatly */
+.tourist-section{
+    margin-top:0 !important;
+    padding-top:0 !important;
+    align-items:stretch !important;
+}
+
+.tourist-section .split-image{
+    min-height:520px !important;
+}
