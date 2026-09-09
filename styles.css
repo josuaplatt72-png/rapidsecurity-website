@@ -1204,3 +1204,18 @@ footer p{
 .tourist-section .tourist-protection-panel{
     bottom:18px !important;
 }
+/* FINAL FIX - REMOVE WHITE GAP UNDER TOURIST IMAGE */
+
+.tourist-section .split-image.tourist-image{
+    height:600px !important;
+    min-height:600px !important;
+    background-size:100% auto !important;
+    background-position:center top !important;
+}
+
+.tourist-section .tourist-protection-panel{
+    top:360px !important;
+    bottom:auto !important;
+    left:28px !important;
+    right:24px !important;
+}
