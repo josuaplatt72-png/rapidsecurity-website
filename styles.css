@@ -1546,3 +1546,32 @@ nav a:hover{
         0 0 8px rgba(0,170,255,.9),
         0 0 14px rgba(0,110,255,.45) !important;
 }
+/* FINAL METALLIC SKY BLUE WILDLIFE BOX TEXT */
+
+#wildlife .feature-item{
+    color:#63d8ff !important;
+    border:1px solid rgba(99,216,255,.75) !important;
+    box-shadow:
+        0 0 8px rgba(0,174,255,.35),
+        inset 0 0 20px rgba(0,119,255,.12) !important;
+}
+
+#wildlife .feature-item span,
+#wildlife .feature-item strong{
+    color:#63d8ff !important;
+    font-weight:700 !important;
+    text-shadow:
+        0 0 2px #ffffff,
+        0 0 7px rgba(0,190,255,.9),
+        0 0 14px rgba(0,110,255,.55) !important;
+}
+
+#wildlife .feature-item b,
+#wildlife .feature-item .number{
+    color:#7de7ff !important;
+    font-weight:800 !important;
+    text-shadow:
+        0 0 3px #ffffff,
+        0 0 9px #00bfff,
+        0 0 16px rgba(0,119,255,.8) !important;
+}
