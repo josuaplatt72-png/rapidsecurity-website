@@ -1954,3 +1954,36 @@ footer .brand span:first-child{
         text-align:center !important;
     }
 }
+
+/* ===== CONTACT BUTTON UPGRADE ===== */
+
+/* SAME CLEAN FONT FOR ALL CONTACT DETAILS */
+#contact .contact-card strong{
+    font-family:Inter, Arial, sans-serif !important;
+    font-weight:800 !important;
+    letter-spacing:0 !important;
+}
+
+/* BLUE ACTION BUTTONS */
+#contact .contact-card span{
+    display:block !important;
+    margin-top:18px !important;
+    padding:13px 18px !important;
+    border-radius:999px !important;
+    background:linear-gradient(135deg,#0f73ff 0%,#0057d9 100%) !important;
+    border:1px solid #f6cf67 !important;
+    color:#ffffff !important;
+    text-align:center !important;
+    font-weight:800 !important;
+    box-shadow:
+        0 6px 16px rgba(0,87,217,.28),
+        inset 0 0 12px rgba(255,255,255,.08) !important;
+}
+
+/* BUTTON HOVER */
+#contact .contact-card:hover span{
+    background:linear-gradient(135deg,#1683ff 0%,#0b63e8 100%) !important;
+    box-shadow:
+        0 8px 20px rgba(0,119,255,.35),
+        0 0 10px rgba(246,207,103,.18) !important;
+}
