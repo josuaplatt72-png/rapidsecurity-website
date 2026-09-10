@@ -1688,3 +1688,30 @@ nav a:hover{
         0 0 8px #00bfff,
         0 0 14px rgba(0,170,255,.85) !important;
 }
+
+/* ===== PREMIUM ABOUT / WHO WE ARE SECTION ===== */
+
+#about{
+    background:
+        linear-gradient(135deg,#f8fbff 0%,#eef5ff 55%,#ffffff 100%) !important;
+    border-top:1px solid #d8e7f7 !important;
+    border-bottom:1px solid #d8e7f7 !important;
+}
+
+/* RIGHT-SIDE PARAGRAPHS */
+#about p{
+    color:#526982 !important;
+    line-height:1.65 !important;
+}
+
+/* OBJECTIVE / QUOTE BOX */
+#about blockquote{
+    background:linear-gradient(135deg,#ffffff 0%,#eef5ff 100%) !important;
+    border-left:5px solid #f2c85b !important;
+    border-top:1px solid #cfe1f5 !important;
+    border-right:1px solid #cfe1f5 !important;
+    border-bottom:1px solid #cfe1f5 !important;
+    border-radius:8px !important;
+    box-shadow:0 12px 28px rgba(8,48,100,.12) !important;
+    padding:28px 30px !important;
+}
