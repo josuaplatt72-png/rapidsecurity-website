@@ -382,7 +382,7 @@
     <a href="tel:+264817991701" class="contact-card">
       <small>CALL</small>
       <strong>081 799 1701</strong>
-      <span>Tap to call →</span>
+      <span class="contact-action">Tap to call →</span>
     </a>
 
 
@@ -393,7 +393,7 @@
 
       <small>WHATSAPP</small>
       <strong>081 285 0405</strong>
-      <span>Message us →</span>
+      <span class="contact-action">Message us →</span>
 
     </a>
 
@@ -403,7 +403,7 @@
 
       <small>EMAIL</small>
       <strong>rapidsecurity7@gmail.com</strong>
-      <span>Send email →</span>
+      <span class="contact-action">Send email →</span>
 
     </a>
 
