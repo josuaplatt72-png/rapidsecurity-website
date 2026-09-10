@@ -1490,3 +1490,25 @@ nav a:hover{
 .wildlife-section::before{
     opacity:.25 !important;
 }
+
+
+/* METALLIC SKY BLUE WILDLIFE SERVICE BOX TEXT */
+
+#wildlife .feature-item,
+#wildlife .feature-item span,
+#wildlife .feature-item strong{
+    color:#9fddff !important;
+    text-shadow:
+        0 1px 0 #ffffff,
+        0 0 5px rgba(76,190,255,.65),
+        0 0 10px rgba(0,119,255,.35);
+}
+
+/* BRIGHT METALLIC BLUE 01 02 03 04 */
+#wildlife .feature-item b,
+#wildlife .feature-item .number{
+    color:#72d7ff !important;
+    text-shadow:
+        0 0 4px #ffffff,
+        0 0 8px rgba(0,170,255,.85);
+}
