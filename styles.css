@@ -1788,3 +1788,169 @@ footer small{
 footer .brand span:first-child{
     border-color:#f6cf67 !important;
 }
+
+/* ===== MOBILE VERSION ===== */
+
+@media (max-width: 768px){
+
+    body{
+        overflow-x:hidden !important;
+    }
+
+    .topbar{
+        padding:12px 14px !important;
+        gap:10px !important;
+        flex-wrap:wrap !important;
+    }
+
+    .brand{
+        width:100% !important;
+        justify-content:flex-start !important;
+    }
+
+    nav{
+        width:100% !important;
+        display:flex !important;
+        flex-wrap:wrap !important;
+        justify-content:center !important;
+        gap:6px !important;
+    }
+
+    nav a{
+        font-size:12px !important;
+        padding:6px 8px !important;
+    }
+
+    .nav-contact{
+        width:100% !important;
+        align-items:center !important;
+        justify-content:center !important;
+        flex-direction:row !important;
+        flex-wrap:wrap !important;
+    }
+
+    .nav-website,
+    .nav-call{
+        font-size:12px !important;
+        padding:8px 10px !important;
+    }
+
+    .hero{
+        min-height:auto !important;
+        padding:110px 20px 55px !important;
+        background-position:center center !important;
+    }
+
+    .hero-content{
+        max-width:100% !important;
+    }
+
+    .hero h1{
+        font-size:clamp(48px,14vw,76px) !important;
+        line-height:.88 !important;
+    }
+
+    .hero-lead{
+        font-size:18px !important;
+        line-height:1.5 !important;
+        max-width:100% !important;
+    }
+
+    .hero-buttons{
+        display:flex !important;
+        flex-direction:column !important;
+        gap:10px !important;
+        width:100% !important;
+    }
+
+    .hero-buttons a{
+        width:100% !important;
+        text-align:center !important;
+    }
+
+    .service-grid{
+        grid-template-columns:1fr !important;
+        gap:18px !important;
+    }
+
+    .service-card{
+        width:100% !important;
+    }
+
+    .tourist-section{
+        display:block !important;
+        height:auto !important;
+        min-height:0 !important;
+        overflow:visible !important;
+    }
+
+    .tourist-section .split-image.tourist-image{
+        width:100% !important;
+        height:auto !important;
+        min-height:0 !important;
+        padding-top:60% !important;
+        background-size:100% auto !important;
+        background-position:center top !important;
+    }
+
+    .tourist-section .tourist-protection-panel{
+        position:static !important;
+        margin:12px 16px 0 !important;
+    }
+
+    .tourist-section .split-content{
+        width:100% !important;
+        height:auto !important;
+        min-height:0 !important;
+        padding:30px 20px !important;
+        overflow:visible !important;
+    }
+
+    .wildlife-section{
+        height:auto !important;
+        min-height:0 !important;
+        padding:40px 20px !important;
+    }
+
+    .wildlife-section h2{
+        font-size:clamp(42px,11vw,64px) !important;
+        line-height:.95 !important;
+    }
+
+    .wildlife-points{
+        grid-template-columns:1fr !important;
+        gap:12px !important;
+    }
+
+    #about{
+        padding:45px 20px !important;
+    }
+
+    .about-grid{
+        grid-template-columns:1fr !important;
+        gap:28px !important;
+    }
+
+    #contact{
+        padding:45px 20px !important;
+    }
+
+    .contact-grid{
+        grid-template-columns:1fr !important;
+        gap:16px !important;
+    }
+
+    #contact .contact-card{
+        width:100% !important;
+    }
+
+    footer{
+        padding:26px 20px !important;
+    }
+
+    footer .footer-inner{
+        flex-direction:column !important;
+        gap:14px !important;
+        text-align:center !important;
+    }
+}
