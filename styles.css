@@ -1755,3 +1755,36 @@ nav a:hover{
         0 14px 32px rgba(0,0,0,.28),
         0 0 14px rgba(246,207,103,.15) !important;
 }
+
+
+/* ===== PREMIUM FOOTER ===== */
+
+footer{
+    border-top:2px solid #f6cf67 !important;
+    box-shadow:0 -4px 18px rgba(246,207,103,.08) !important;
+}
+
+/* RAPID SECURITY NAME */
+footer strong,
+footer .brand strong{
+    color:#ffffff !important;
+    text-shadow:0 0 6px rgba(120,190,255,.22) !important;
+}
+
+/* 24/7 / 365 TEXT */
+footer .footer-hours,
+footer .hours,
+footer p{
+    color:#9fdcff !important;
+}
+
+/* COPYRIGHT */
+footer .copyright,
+footer small{
+    color:#c8d6e8 !important;
+}
+
+/* SMALL GOLD ACCENT */
+footer .brand span:first-child{
+    border-color:#f6cf67 !important;
+}
