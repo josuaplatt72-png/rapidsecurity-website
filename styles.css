@@ -1465,3 +1465,13 @@ nav a:hover{
 .service-card.featured p{
     color:#e2efff !important;
 }
+
+
+/* BRIGHTER ANTI-POACHING BACKGROUND */
+#wildlife::before{
+    opacity:0.35 !important;
+}
+
+#wildlife{
+    background-color:rgba(0,45,100,0.18) !important;
+}
