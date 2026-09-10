@@ -1475,3 +1475,18 @@ nav a:hover{
 #wildlife{
     background-color:rgba(0,45,100,0.18) !important;
 }
+/* FINAL BRIGHTER ANTI-POACHING SECTION */
+.wildlife-section{
+    background:
+        linear-gradient(
+            90deg,
+            rgba(3,20,52,.55) 0%,
+            rgba(5,57,129,.38) 55%,
+            rgba(5,87,160,.20) 100%
+        ),
+        url("rapid business card light new 111.png") center/cover no-repeat !important;
+}
+
+.wildlife-section::before{
+    opacity:.25 !important;
+}
