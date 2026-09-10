@@ -1715,3 +1715,43 @@ nav a:hover{
     box-shadow:0 12px 28px rgba(8,48,100,.12) !important;
     padding:28px 30px !important;
 }
+
+/* ===== PREMIUM CONTACT CARDS ===== */
+
+#contact .contact-card{
+    background:
+        linear-gradient(145deg,#18375f 0%,#102b50 55%,#0a2142 100%) !important;
+    border:1px solid rgba(246,207,103,.55) !important;
+    border-radius:16px !important;
+    box-shadow:
+        0 10px 28px rgba(0,0,0,.22),
+        inset 0 0 18px rgba(70,145,255,.08) !important;
+}
+
+/* CALL / WHATSAPP / EMAIL LABELS */
+#contact .contact-card small{
+    color:#f6cf67 !important;
+    letter-spacing:.12em !important;
+    font-weight:800 !important;
+}
+
+/* PHONE / WHATSAPP / EMAIL DETAILS */
+#contact .contact-card strong{
+    color:#ffffff !important;
+    text-shadow:0 0 6px rgba(120,190,255,.18) !important;
+}
+
+/* SMALL ACTION TEXT */
+#contact .contact-card span{
+    color:#a9d8ff !important;
+    font-weight:600 !important;
+}
+
+/* SUBTLE HOVER EFFECT */
+#contact .contact-card:hover{
+    transform:translateY(-3px);
+    border-color:#f6cf67 !important;
+    box-shadow:
+        0 14px 32px rgba(0,0,0,.28),
+        0 0 14px rgba(246,207,103,.15) !important;
+}
