@@ -1512,3 +1512,20 @@ nav a:hover{
         0 0 4px #ffffff,
         0 0 8px rgba(0,170,255,.85);
 }
+/* FINAL ANTI-POACHING BOX COLOURS */
+
+.wildlife-points div{
+    color:#bfeaff !important;
+    text-shadow:
+        0 1px 0 rgba(255,255,255,.9),
+        0 0 6px rgba(80,190,255,.55) !important;
+}
+
+/* 01 02 03 04 - METALLIC SKY BLUE */
+.wildlife-points b{
+    color:#75d9ff !important;
+    text-shadow:
+        0 0 3px #ffffff,
+        0 0 8px rgba(0,170,255,.9),
+        0 0 14px rgba(0,110,255,.45) !important;
+}
