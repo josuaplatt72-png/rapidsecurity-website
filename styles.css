@@ -1664,3 +1664,27 @@ nav a:hover{
 .wildlife-section p{
     margin-bottom:38px !important;
 }
+/* FINAL METALLIC GOLD TEXT INSIDE 01-04 WILDLIFE CARDS */
+
+#wildlife .wildlife-points .feature-item{
+    color:#f6cf67 !important;
+}
+
+#wildlife .wildlife-points .feature-item span,
+#wildlife .wildlife-points .feature-item strong{
+    color:#f6cf67 !important;
+    text-shadow:
+        0 1px 0 #fff3b0,
+        0 2px 5px rgba(255,190,40,.55) !important;
+}
+
+/* KEEP 01 02 03 04 METALLIC SKY BLUE */
+
+#wildlife .wildlife-points .feature-item b,
+#wildlife .wildlife-points .feature-item .number{
+    color:#72d7ff !important;
+    text-shadow:
+        0 0 4px #ffffff,
+        0 0 8px #00bfff,
+        0 0 14px rgba(0,170,255,.85) !important;
+}
