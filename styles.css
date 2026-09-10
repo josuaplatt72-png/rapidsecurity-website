@@ -1638,3 +1638,18 @@ nav a:hover{
         0 0 8px #00bfff,
         0 0 14px rgba(0,119,255,.8) !important;
 }
+/* FIX WILDLIFE PARAGRAPH SPACING */
+
+.wildlife-section p{
+    position:relative !important;
+    z-index:2 !important;
+    display:block !important;
+    margin-bottom:28px !important;
+    line-height:1.55 !important;
+}
+
+.wildlife-points{
+    margin-top:10px !important;
+    position:relative !important;
+    z-index:2 !important;
+}
