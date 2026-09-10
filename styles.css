@@ -1653,3 +1653,14 @@ nav a:hover{
     position:relative !important;
     z-index:2 !important;
 }
+/* FINAL SPACE BETWEEN WILDLIFE TEXT AND CARDS */
+
+#wildlife .wildlife-points,
+.wildlife-section .wildlife-points{
+    margin-top:38px !important;
+}
+
+#wildlife p,
+.wildlife-section p{
+    margin-bottom:38px !important;
+}
